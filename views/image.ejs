@@ -1,0 +1,13 @@
+<form action="/image/<%= user._id %>?_method=PUT" method="POST">
+    <div style="text-align: center;">
+        <div class="container">
+            <div class="mb-3" style="padding: 20px;">
+                <label for="exampleFormControlInput1" class="form-label">Image URL</label>
+                <input type="text" name="image" class="form-control" id="exampleFormControlInput1" placeholder="Enter Image url" required>
+            </div>
+            <div class="btn-box" style="padding: 20px;">
+                <button type="submit" >Submit</button>
+            </div>
+        </div>
+    </div>
+</form>
